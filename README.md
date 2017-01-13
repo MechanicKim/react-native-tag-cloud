@@ -57,3 +57,21 @@ Use `TagCloud` like this.
   style={...}
 />
 ```
+
+### Properties
+1. **tagList** (Required)  
+  The item of list must `have` title and `point`  
+  `point` should be integer type(0 ~ N)  
+
+2. **colorList** (Requried)  
+  Each color value corresponds to `point` of `tag` object.
+
+3. **minFontSize** (Optional)  
+  This will decide the minimum font size of each tag.  
+  Default size is 12.
+
+4. **style** (Optional)  
+  This style is for container.
+
+5. **tagPaddingLeft, tagPaddingTop, tagPaddingRight, tagPaddingBottom** (Optional)  
+  Default value is **30**.
